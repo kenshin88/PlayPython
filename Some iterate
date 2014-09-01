@@ -1,0 +1,7 @@
+### Iterate list of string 
+for name in ['Sherlock Holmes', 'Maria', 'Dark Knight']:
+	print name, len(name)	
+	
+### Iterate a range of number
+for number in range(1, 10):
+  print number
