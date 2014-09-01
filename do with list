@@ -1,0 +1,16 @@
+### List co the chua bat cu loai phan tu nao int, string...
+theList=["a", "test", 99, "1", True, 89, False] ### index bat dau tu 0
+def iterateLits(theList):
+  for element in theList:
+    print element
+
+iterateLits(theList)  
+
+### Mot so thao tac voi list
+theList.append("a");
+iterateLits(theList)  ### them "a" o cuoi list
+
+print theList.index("a") ### tra ve index ma phan tu "a" xuat hien lan dau
+
+theList.remove("a") ### loai bo phan tu "a" dau tien trong danh sach, se bao loi neu khong co phan tu "a" nao de remove
+iterateLits(theList)
