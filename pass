@@ -1,0 +1,5 @@
+pass khong lam gi ca, no duoc su dung cho cac truong hop statement can mot cau lenh de hoan tat nhung khong xu ly gi ca
+Example:
+
+while True:
+  pass
