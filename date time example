@@ -1,0 +1,22 @@
+import datetime
+
+now = datetime.datetime.now()
+
+print
+print "Current date and time using str method of datetime object:"
+print str(now)  ### 2014-09-01 20:31:39.949587
+
+print
+print "Current date and time using instance attributes:"
+print "Current year: %d" % now.year  ### 2014
+print "Current month: %d" % now.month  ### 9
+print "Current day: %d" % now.day ### 1
+print "Current hour: %d" % now.hour ### 20
+print "Current minute: %d" % now.minute ### 31
+print "Current second: %d" % now.second ### 39
+print "Current microsecond: %d" % now.microsecond ### 949587
+
+print
+print "Current date and time using strftime:"
+print now.strftime("%Y-%m-%d %H:%M") ### 2014-09-01 20:31
+
