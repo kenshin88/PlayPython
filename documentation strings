@@ -1,0 +1,7 @@
+### docstring 
+
+usage = """Wake up. 
+Have breakfast.
+Go to work.
+"""
+print(usage)  ### python 3.4 yeu cau print phai co ( )
